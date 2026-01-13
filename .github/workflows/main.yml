@@ -21,7 +21,7 @@ jobs:
       # 步骤2：调用 Vercel API（核心逻辑）
       - name: 触发 Vercel Cron 接口
         run: |
-          curl -X GET "https://removewatermark.chdaoai.com/api/keep-alive" \
+          curl -X GET "https://www.chdaoai.com/api/keep-alive" \
           --connect-timeout 10 \
           --max-time 30
         # 环境变量说明：
